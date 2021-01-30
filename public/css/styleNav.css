@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin: auto;
+    padding-right: 10%;
+    background-color: rgb(251, 251, 168);
+    z-index: 2000;
+    top: 0;
+
+}
+
+#burger-icon{
+    max-width: 50px;
+}
+
+#burger-icon:hover{
+    cursor: pointer;
+}
+
+nav>a{
+    padding-top: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(22, 22, 22);
+    transition-property: background-color, color;
+    transition-duration: 0.5s;
+    text-decoration: none;
+
+}
+
+nav>a:hover{
+    cursor: pointer;
+    transition: 0.2s;
+    background-color: rgb(22, 22, 22);
+    color: rgb(251, 251, 168);
+}

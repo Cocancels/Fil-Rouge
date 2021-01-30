@@ -1,0 +1,36 @@
+.center {
+    margin: 0px 25%;
+    text-align: center;
+    color: black;
+    line-height: 1.5rem;
+    font-family: sans-serif;
+    font-weight: 100;
+    background-color: rgba(221, 223, 229, 0.5)
+}
+
+.center h2{
+    margin-top: 150px;
+    padding-top: 30px;
+}
+
+table {
+    margin: 0 auto;
+
+}
+
+td {
+    text-align: right;
+    color: black;
+
+}
+
+.right {
+    text-align: right;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    margin: 10px 15px;
+}
+
